@@ -1,0 +1,18 @@
+---
+- StudentDetails:
+    - name: asif
+      phno: 7878787878
+      email: asif@gmail.com
+      address: kphb
+          
+
+    - name: bharath
+      phno: 8484848484
+      email: bharath@gmail.com
+      address: hyd
+      
+    - name: divya
+      phno: 89898989898
+      email: divya@gmail.com
+      address: bnglor
+        
