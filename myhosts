@@ -19,6 +19,3 @@
 
 
 
-[webservers:vars]
-mywebonubuntu=apache2
-mywebonredhat=httpd
