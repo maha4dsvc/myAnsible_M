@@ -1,3 +1,6 @@
 ---
 mywebonubuntu: apache2
 mywebonredhat: httpd
+
+javaonubuntu: openjdk-8-jdk
+javaonRedhat: java-1.8.0-openjdk-devel
