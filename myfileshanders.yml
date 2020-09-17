@@ -4,12 +4,12 @@
   tasks:
   - include_tasks: myfile.yml
 
-  - name: install webservers
+  - name: install webservers on ubuntu
     apt:
       name: apache2
       state: present
       
-  - name: start webservers
+  - name: start webservers on  ubuntu
     service:
       name: apache2
       state: started
