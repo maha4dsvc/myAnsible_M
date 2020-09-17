@@ -1,2 +1,15 @@
 ---
 # tasks file for mywebrole
+
+  - name: install webservers on ubuntu
+    apt:
+      name: apache2
+      state: present
+    notify: restartwebservers
+
+  - name: copy index.j2 file into ansible node side
+    template:
+      src: tamplates/index.j2
+      dest: /var/www/html/index.html
+    notify: restartwebservers
+  
