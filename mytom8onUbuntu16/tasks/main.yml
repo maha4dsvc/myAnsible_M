@@ -10,3 +10,5 @@
 - include_tasks: tomstart.yml
 - include_tasks: tomuser.yml
 - include_tasks: tomRestart.yml
+- include_tasks: deployjavaapp.yml
+- include_tasks: tomRestart.yml
