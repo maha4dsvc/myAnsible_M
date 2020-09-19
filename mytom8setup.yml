@@ -2,5 +2,5 @@
 - hosts: applicationservers
   become: yes
   roles:
-    - {role: mytom8onUbuntu16, when: ansible_os_family =="Debian"}
-    - {role: mytom8onRedhat8, when: ansible_os_family =="RedHat"}
+    - {role: mytom8onUbuntu16, when: ansible_os_family=="Debian"}
+    - {role: mytom8onRedhat8, when: ansible_os_family=="RedHat"}
